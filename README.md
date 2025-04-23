@@ -57,7 +57,7 @@ Se puede utilizar tanto Expo Go como un emulador de Android o iOS para probar la
 ---
 
 ## Uso de la aplicación
-1. Registro e inicio de sesión:
+1.Registro e inicio de sesión:
 Los usuarios deben registrarse o iniciar sesión para acceder a las funcionalidades.
 
 2.Explorar historias:
