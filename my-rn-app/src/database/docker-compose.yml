@@ -1,0 +1,17 @@
+
+services:
+  strapi:
+    container_name: tci2024b
+    image: strapi/strapi:latest
+    environment:
+      - DATABASE_CLIENT=mongo
+      - DATABASE_HOST=tci2024b.4kxfd.mongodb.net
+      - DATABASE_PORT=27017
+      - DATABASE_SSL=true
+      - DATABASE_SRV=true
+      - DATABASE_NAME=tci2024b
+      - DATABASE_USERNAME=Gerdan
+      - DATABASE_PASSWORD=MEPKM5F8K4
+    ports:
+      - 1337:1337    
+      
